@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_BR">
   <head>
     <!-- Page Information
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -14,7 +14,10 @@
 
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -31,9 +34,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
       <div class="row">
-        <div class="column" style="margin-top: 10%">
+        <div class="column">
           <!-- Your Image Here -->
-          <img id="photo" src="images/photo.jpeg"/>
+          <img id="photo" src="images/photo.jpeg" />
 
           <!-- Short Bio -->
           <p>
@@ -118,7 +121,12 @@
           <br />
           <!-- <p>Build your own by forking <a href="https://littlelink.io">LittleLink</a>.</p> -->
 
-          <p>Community Experience <a href="https://rocketseat.com.br">@Rocketseat</a> 🚀</p>
+          <footer>
+            <p>
+              Community Experience
+              <a href="https://rocketseat.com.br">@Rocketseat</a> 🚀
+            </p>
+          </footer>
         </div>
       </div>
     </div>
@@ -126,7 +134,14 @@
     <script src="./scripts/consoleimg.min.js"></script>
 
     <script>
+      if( typeof console === 'object' ) {
+        console.log(
+            'Boost Yourself'
+        );
+    }
+
       consoleimg.load("./images/rocket.png");
+      console.log();
     </script>
 
     <!-- End Document
