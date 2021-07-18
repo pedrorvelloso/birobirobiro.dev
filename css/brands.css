@@ -148,3 +148,19 @@ button:hover,
 .button.button-rocketseat:hover,
 .button.button-rocketseat:focus {
   filter: brightness(90%) }
+
+  /* Mercado Livre */
+.button.button-mercado-livre {
+  color: #000000;
+  background-color: #fffc00 }
+.button.button-mercado-livre:hover,
+.button.button-mercado-livre:focus {
+  filter: brightness(90%) }
+
+  /* OLX */
+.button.button-olx {
+  color: #FFFFFF;
+  background-color: #6E0BD6 }
+.button.button-olx:hover,
+.button.button-olx:focus {
+  filter: brightness(90%) }
