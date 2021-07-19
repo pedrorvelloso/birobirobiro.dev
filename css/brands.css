@@ -164,3 +164,11 @@ button:hover,
 .button.button-olx:hover,
 .button.button-olx:focus {
   filter: brightness(90%) }
+
+    /* Enjoei */
+.button.button-enjoei {
+  color: #FFFFFF;
+  background-color: #F16984 }
+.button.button-olx:hover,
+.button.button-olx:focus {
+  filter: brightness(90%) }
