@@ -172,3 +172,18 @@ button:hover,
 .button.button-olx:hover,
 .button.button-olx:focus {
   filter: brightness(90%) }
+
+      /* DoWhile */
+.button.button-dowhile-2021 {
+  color: #FFFFFF;
+  background-color: black
+}
+.button.button-dowhile-2021:hover,
+.button.button-dowhile-2021:focus {
+  filter: brightness(90%) }
+
+  .icon-do-while-2021 {
+    width: 250px;
+    justify-content: center;
+    align-self: center;
+  }
