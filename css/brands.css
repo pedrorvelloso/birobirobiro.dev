@@ -184,6 +184,6 @@ button:hover,
 
   .icon-do-while-2021 {
     width: 250px;
-    justify-content: center;
-    align-self: center;
+    height: 30px;
+    padding-top: 9px;
   }
