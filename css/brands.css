@@ -163,3 +163,19 @@ button:hover,
     height: 30px;
     padding-top: 9px;
   }
+
+
+      /* NLW */
+.button.button-nlw-heat {
+  color: #FFFFFF;
+  background-color: black
+}
+.button.button-nlw-heat:hover,
+.button.button-nlw-heat:focus {
+  filter: brightness(90%) }
+
+  .icon-nlw-heat {
+    width: 250px;
+    height: 30px;
+    padding-top: 9px;
+  }
