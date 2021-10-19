@@ -156,3 +156,45 @@ button:hover,
 .button.button-youtube:focus {
   filter: brightness(90%);
 }
+
+/* Rocketseat */
+.button.button-rocketseat {
+  color: #ffffff;
+  background-color: #8257e6;
+}
+.button.button-rocketseat:hover,
+.button.button-rocketseat:focus {
+  filter: brightness(90%);
+}
+
+/* DoWhile */
+.button.button-dowhile-2021 {
+  color: #ffffff;
+  background-color: black;
+}
+.button.button-dowhile-2021:hover,
+.button.button-dowhile-2021:focus {
+  filter: brightness(90%);
+}
+
+.icon-do-while-2021 {
+  width: 250px;
+  height: 30px;
+  padding-top: 9px;
+}
+
+/* NLW */
+.button.button-nlw-heat {
+  color: #ffffff;
+  background-color: black;
+}
+.button.button-nlw-heat:hover,
+.button.button-nlw-heat:focus {
+  filter: brightness(90%);
+}
+
+.icon-nlw-heat {
+  width: 250px;
+  height: 30px;
+  padding-top: 9px;
+}
