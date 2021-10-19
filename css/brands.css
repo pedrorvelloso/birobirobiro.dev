@@ -156,13 +156,3 @@ button:hover,
 .button.button-youtube:focus {
   filter: brightness(90%);
 }
-
-/* Rocketseat */
-.button.button-rocketseat {
-  color: #ffffff;
-  background-color: #8257e6;
-}
-.button.button-rocketseat:hover,
-.button.button-rocketseat:focus {
-  filter: brightness(90%);
-}
