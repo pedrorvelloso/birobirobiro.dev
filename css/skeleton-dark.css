@@ -55,7 +55,7 @@
 #photo {
   border-radius: 50%;
   border: 5px solid;
-  color: #5A4B81;
+  color: #51f371;
   width: 35%;
   margin-top: 26px;
   margin-bottom: 5px;
@@ -95,7 +95,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Roboto Mono', monospace;
   color: #E1E1E6; }
 
 
@@ -177,20 +177,15 @@ ol {
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-hr {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
-  border-width: 0;
-  border-top: 1px solid #E1E1E6; }
 
   .profile-description {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem 0 3rem 0;   
   }
 
-  .profile-description img {
+  .hello img {
     width: 30px;
-    margin-right: 10px;
-    padding-left: 45px;
-    margin-bottom: 7px;
+    height: 30px;
   }
