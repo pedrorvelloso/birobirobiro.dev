@@ -39,8 +39,10 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+  
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css" />
@@ -72,18 +74,25 @@
     <div class="row">
       <div class="column">
         <!-- Your Image Here -->
-        <img id="photo" src="images/avatar.jpeg" alt="avatar" />
+        <img id="photo" src="images/avatar.png" alt="avatar" />
 
         <!-- Short Bio -->
-        <p class="profile-description">
-          <img src="./.github/hello.gif" alt="Hello" />
-          <span>
-            Me chamo <strong><i>João</i></strong>, mas pode me chamar de
+        <div class="profile-description">
+            <div class="hello">
+              <img src="./.github/hello.gif" alt="Hello" />
+            </div>
+            <div class="description">
+              Me chamo <strong><i>João</i></strong>, mas pode me chamar de
             <strong><i>Biro</i></strong>.
-          </span>
-        </p>
+            </div>
+          </div>
 
         <!-- Replace # with your profile URL. Delete whatever you don't need & create your own brand styles in css/brands.css -->
+
+        <!-- Lofi -->
+        <a class="button button-lofi" target="_blank" href="https://lofi.co/?via=birobirobiro">
+          <img src="icons/lofi.png" /></a>
+        <br />
 
         <!-- DoWhile -->
         <a class="button button-dowhile-2021" target="_blank" href="https://dowhile.io/convite/birobirobiro">

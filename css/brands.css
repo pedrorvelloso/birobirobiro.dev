@@ -100,7 +100,7 @@ button:hover,
 /* Github */
 .button.button-github {
   color: #ffffff;
-  background-color: #24292e;
+  background-color: #333;
 }
 .button.button-github:hover,
 .button.button-github:focus {
@@ -110,7 +110,7 @@ button:hover,
 /* Instagram */
 .button.button-instagram {
   color: #ffffff;
-  background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+  background-color: #c13584
 }
 .button.button-instagram:hover,
 .button.button-instagram:focus {
@@ -120,7 +120,7 @@ button:hover,
 /* LinkedIn */
 .button.button-linkedin {
   color: #ffffff;
-  background-color: #0a66c2;
+  background-color: #0077b5 ;
 }
 .button.button-linkedin:hover,
 .button.button-linkedin:focus {
@@ -181,4 +181,20 @@ button:hover,
   width: 250px;
   height: 30px;
   padding-top: 9px;
+}
+
+/* Lofi */
+.button.button-lofi {
+  color: #FFF;
+  background-color: #f3a952;
+}
+.button.button-lofi:hover,
+.button.button-lofi:focus {
+  filter: brightness(90%);
+}
+
+.button.button-lofi img {
+  padding-top: 0.30rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
