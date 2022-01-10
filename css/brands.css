@@ -182,3 +182,13 @@ button:hover,
   width: 2.5rem;
   height: 2.5rem;
 }
+
+/* Setup */
+.button.button-setup {
+  color: #ffffff;
+  background-color: #7318db;
+}
+.button.button-setup:hover,
+.button.button-setup:focus {
+  filter: brightness(90%);
+}
