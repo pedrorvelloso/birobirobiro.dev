@@ -37,9 +37,9 @@ button {
   padding: 0 16px;
   text-align: center;
   vertical-align: middle;
-  font-size: 18px;
+  font-size: 16px;
   width: 300px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 48px;
   letter-spacing: 0.5px;
   white-space: nowrap;
@@ -186,9 +186,20 @@ button:hover,
 /* Setup */
 .button.button-setup {
   color: #ffffff;
-  background-color: #7318db;
+  background-color: #f3a952;
 }
 .button.button-setup:hover,
 .button.button-setup:focus {
   filter: brightness(90%);
 }
+
+/* Wallpaper */
+.button.button-wallpaper {
+  color: #ffffff;
+  background-color: #425eda;
+}
+.button.button-wallpaper:hover,
+.button.button-wallpaper:focus {
+  filter: brightness(90%);
+}
+
