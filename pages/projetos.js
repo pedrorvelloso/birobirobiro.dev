@@ -80,10 +80,10 @@ function Projects(props) {
       <AnimateSharedLayout>
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
-        <h2>Featured Projects</h2>
+        <h2>Projetos Populares</h2>
         <FeaturedProjects>{renderFeatured()}</FeaturedProjects>
 
-        <h2>All Projects</h2>
+        <h2>Todos Projetos</h2>
         {renderAll()}
       </AnimateSharedLayout>
     </>
