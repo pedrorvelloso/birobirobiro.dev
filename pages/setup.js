@@ -9,7 +9,7 @@ export async function getStaticProps() {
     title: 'Meu Setup // Biro³',
     description:
       "Sempre recebo muitas mensagens perguntando sobre meu setup e quais <strong>softwares e equipamentos utilizo em meu dia a dia</strong>. Então, resolvi listar tudo aqui em um só lugar. Conforme for atualizando meu setup, atualizarei a lista abaixo.",
-    tagline: 'Equipamentos, apps e ferramentas',
+    tagline: 'Equipamentos, apps e ferramentas.',
     image: '#',
     primaryColor: 'yellow',
     secondaryColor: 'pink',
