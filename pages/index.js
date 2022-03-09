@@ -10,7 +10,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'João Inácio (Biro)',
-      description: 'An instructor focused on helping people start programming.',
+      description: 'An instructor focused on helping people start programming',
       image: 'https://raw.githubusercontent.com/birobirobiro/birobirobiro.dev/572ce4534386893e3c064da603745a68ea4cb051/.github/image.png',
     },
   }
