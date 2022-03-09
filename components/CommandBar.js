@@ -34,16 +34,6 @@ export default function CommandBar(props) {
       perform: () => window.open('mailto:birobirobiro.dev@gmail.com', '_blank'),
       icon: <Icon className="ri-mail-line" />,
     },
-    // {
-    //   id: 'source',
-    //   name: 'View Source',
-    //   shortcut: ['s'],
-    //   keywords: 'view-source',
-    //   section: 'General',
-    //   perform: () =>
-    //     window.open('https://github.com/birobirobiro', '_blank'),
-    //   icon: <Icon className="ri-braces-line" />,
-    // },
     {
       id: 'home',
       name: 'Home',
@@ -62,15 +52,6 @@ export default function CommandBar(props) {
       perform: () => router.push('/about'),
       icon: <Icon className="ri-user-line" />,
     },
-    // {
-    //   id: 'articles',
-    //   name: 'Articles',
-    //   shortcut: ['g', 'b'],
-    //   keywords: 'go-articles',
-    //   section: 'Go To',
-    //   perform: () => router.push('/articles'),
-    //   icon: <Icon className="ri-ball-pen-line" />,
-    // },
     {
       id: 'projects',
       name: 'Projects',
@@ -80,33 +61,6 @@ export default function CommandBar(props) {
       perform: () => router.push('/projects'),
       icon: <Icon className="ri-lightbulb-line" />,
     },
-    // {
-    //   id: 'talks',
-    //   name: 'Talks',
-    //   shortcut: ['g', 't'],
-    //   keywords: 'go-talks',
-    //   section: 'Go To',
-    //   perform: () => router.push('/talks'),
-    //   icon: <Icon className="ri-slideshow-2-line" />,
-    // },
-    // {
-    //   id: 'podcasts',
-    //   name: 'Podcasts',
-    //   shortcut: ['g', 'c'],
-    //   keywords: 'go-podcasts',
-    //   section: 'Go To',
-    //   perform: () => router.push('/podcasts'),
-    //   icon: <Icon className="ri-mic-line" />,
-    // },
-    // {
-    //   id: 'investing',
-    //   name: 'Investing',
-    //   shortcut: ['g', 'i'],
-    //   keywords: 'go-investing',
-    //   section: 'Go To',
-    //   perform: () => router.push('/investing'),
-    //   icon: <Icon className="ri-money-dollar-box-line" />,
-    // },
     {
       id: 'setup',
       name: 'Setup',
@@ -116,15 +70,6 @@ export default function CommandBar(props) {
       perform: () => router.push('/setup'),
       icon: <Icon className="ri-macbook-line" />,
     },
-    // {
-    //   id: 'reminder',
-    //   name: 'Reminder',
-    //   shortcut: ['g', 'r'],
-    //   keywords: 'go-reminder',
-    //   section: 'Go To',
-    //   perform: () => router.push('/reminder'),
-    //   icon: <Icon className="ri-time-line" />,
-    // },
     {
       id: 'instagram',
       name: 'Instagram',
@@ -153,6 +98,15 @@ export default function CommandBar(props) {
       icon: <Icon className="ri-linkedin-line" />,
     },
     {
+      id: 'rocketseat',
+      name: 'Rocketseat',
+      shortcut: ['f', 'r'],
+      keywords: 'go-rocketseat',
+      section: 'Follow',
+      perform: () => window.open('https://app.rocketseat.com.br/me/birobirobiro', '_blank'),
+      icon: <Icon className="ri-rocket-line" />,
+    },
+    {
       id: 'twitch',
       name: 'Twitch',
       shortcut: ['f', 't'],
@@ -161,6 +115,16 @@ export default function CommandBar(props) {
       perform: () => window.open('https://twitch.tv/birobirobiro', '_blank'),
       icon: <Icon className="ri-twitch-line" />,
     },
+    {
+      id: 'youtube',
+      name: 'Youtube',
+      shortcut: ['f', 'y'],
+      keywords: 'go-youtube',
+      section: 'Follow',
+      perform: () => window.open('https://youtube.com/birobirobiro', '_blank'),
+      icon: <Icon className="ri-youtube-line" />,
+    },
+
   ]
 
   return (
