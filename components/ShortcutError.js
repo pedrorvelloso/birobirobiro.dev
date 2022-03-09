@@ -14,14 +14,14 @@ export default function ShortcutError() {
     if (isMobile) {
       return (
         <ButtonPrimary as="a" href="/">
-          Tap to go home →
+          Toque para voltar na Home →
         </ButtonPrimary>
       )
     }
 
     return (
       <ButtonPrimary as="a" href="/">
-        Press <kbd>G</kbd> <kbd>H</kbd> to go home →
+        Pressione <kbd>G</kbd> <kbd>H</kbd> para voltar na Home →
       </ButtonPrimary>
     )
   }
