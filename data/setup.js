@@ -49,6 +49,15 @@ const categories = [
     ],
   },
   {
+    name: 'Wallpapers',
+    items: [
+      {
+        title: 'Link - Wallpapers',
+        url: 'https://ibb.co/album/pJTFqF',
+      },
+    ],
+  },
+  {
     name: 'Código',
     items: [
       {

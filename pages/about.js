@@ -24,6 +24,9 @@ export async function getStaticProps() {
   return { props: meta }
 }
 
+const yearAnniversary = new Date('1993-03-11');
+const yearExperience = new Date('2021-01-01');
+
 function About(props) {
   const { title, description, image } = props
 
@@ -48,16 +51,15 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            Me chamo João, mas pode me chamar de <strong>Biro</strong>
-            {/* <Pronunciation /> */}
-
-          </Paragraph>
-          <Paragraph>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptate corporis hic quasi quia qui dolor optio veritatis, quas vitae repudiandae iusto, ex praesentium atque est fugiat nobis nesciunt eum corrupti vero. Cupiditate necessitatibus eligendi non dolore aliquid nemo vel dolores consequuntur? Alias dolorem inventore corrupti iste animi nam saepe!
+            Me chamo João, normalmente conhecido como <strong><i>Biro</i></strong> e tenho <strong>{new Date().getFullYear() - yearAnniversary.getFullYear()}</strong> anos.
           </Paragraph>
 
           <Paragraph>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptate corporis hic quasi quia qui dolor optio veritatis, quas vitae repudiandae iusto, ex praesentium atque est fugiat nobis nesciunt eum corrupti vero.
+            Sou programador front-end, apaixonado por tecnologia. Atualmente trabalho como <strong>Instrutor</strong> na <strong>Rocketseat</strong> e tenho {new Date().getFullYear() - yearExperience.getFullYear()} de experiência com as principais tecnologias: <i>HTML, CSS, JavaScript, ReactJS e React Native</i>.
+          </Paragraph>
+
+          <Paragraph>
+            Quando não estou trabalhando, estou produzindo conteúdos no <i><a href="https://instagram.com/birobirobiro">Instagram</a></i>, <i><a href="https://youtube.com/birobirobiro">Youtube</a></i> e fazendo lives na <i><a href="https://twitch.tv/birobirobiro">Twitch</a></i>.
           </Paragraph>
         </Section>
       </Container>
