@@ -14,9 +14,9 @@ export async function getStaticProps() {
   const meta = {
     title: 'About // Biro³',
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia aperiam quo a quasi reprehenderit voluptatem accusamus quod illo, temporibus, magni, beatae hic! Ducimus eligendi eaque commodi, harum obcaecati nesciunt est!",
+      "Me chamo João, mas pode me chamar de Biro ✌🏻.",
     tagline: 'Sobre mim.',
-    image: '/static/images/about-bw.jpg',
+    image: '#',
     primaryColor: 'pink',
     secondaryColor: 'purple',
   }

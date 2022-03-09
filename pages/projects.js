@@ -10,8 +10,8 @@ import items from '../data/projects'
 export async function getStaticProps() {
   const meta = {
     title: 'Projects // Biro³',
-    tagline: 'Work. Hobby. Open Source.',
-    image: '/static/images/projects-bw.jpg',
+    tagline: 'Trabalho, hobby & open source.',
+    image: '#',
     primaryColor: 'cyan',
     secondaryColor: 'green',
   }
@@ -64,7 +64,7 @@ function Projects(props) {
   }
 
   const { title, image } = props
-  const description = `I'm obsessed with side projects and <strong>building in public</strong>. Here you can navigate to <strong>${getTotalProjects()} different</strong> websites, apps, and libraries I built. Some projects are still active, others have been discontinued.`
+  const description = `Essa página lista os <strong>${getTotalProjects()}</strong> projeto(s) que criei durante essa minha jornada como programador.`
 
   return (
     <>
@@ -74,7 +74,7 @@ function Projects(props) {
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
         <meta content="https://birobirobiro.dev/projects" property="og:url" />
-        <meta content={`https://birobirobiro.dev${image}`} property="og:image" />
+        <meta content={`${image}`} property="og:image" />
       </Head>
 
       <AnimateSharedLayout>

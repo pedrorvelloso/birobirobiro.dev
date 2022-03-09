@@ -6,11 +6,11 @@ import categories from '../data/setup'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Setup // Biro³',
+    title: 'Meu Setup // Biro³',
     description:
-      "I often get messages asking about specific pieces of <strong>software or hardware I use</strong>. This not a static page, it's a <strong>living document</strong> with everything that I'm using nowadays.",
-    tagline: 'Tools. Apps. Gear.',
-    image: '/static/images/uses-bw.jpg',
+      "Sempre recebo muitas mensagens perguntando sobre meu setup e quais <strong>softwares ou hardwares que utilizo em meu dia a dia</strong>. Então resolvi listar tudo aqui em um só lugar, conforme for atualizando meu setup irei atualizando a lista também.",
+    tagline: 'Equipamentos, apps e ferramentas',
+    image: '#',
     primaryColor: 'yellow',
     secondaryColor: 'pink',
   }
@@ -33,10 +33,6 @@ function Uses(props) {
                   <a href={item.url} target="_blank">
                     {item.title}
                   </a>
-                  <span> - </span>
-                  <span
-                    dangerouslySetInnerHTML={{ __html: item.description }}
-                  />
                 </li>
               )
             })}
@@ -54,7 +50,7 @@ function Uses(props) {
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
         <meta content="https://birobirobiro.dev/uses" property="og:url" />
-        <meta content={`https://birobirobiro.dev${image}`} property="og:image" />
+        <meta content={`${image}`} property="og:image" />
       </Head>
 
       <p dangerouslySetInnerHTML={{ __html: description }} />
