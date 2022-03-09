@@ -9,6 +9,28 @@ const items = [
         icon: 'car',
         active: true,
       },
+      {
+        title: 'RocketTravel',
+        description: 'Projeto desenvolvido durante a live na Twitch',
+        url: 'https://github.com/birobirobiro/live-twitch-rocket-travel',
+        icon: 'plane',
+        active: true,
+      },
+      {
+        title: 'GPT-3',
+        description: 'Landing Page desenvolvida durante a live na Twitch',
+        url: 'https://github.com/birobirobiro/my-onix-web',
+        icon: 'twitch',
+        active: true,
+      },
+      {
+        title: 'SpaceY',
+        description: 'Projeto SpaceY desenvolvido durante a live na Twitch',
+        url: 'https://github.com/birobirobiro/live-twitch-space-y',
+        icon: 'rocket',
+        active: true,
+      },
+
     ],
   },
 

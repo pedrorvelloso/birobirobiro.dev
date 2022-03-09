@@ -8,7 +8,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'Meu Setup // Biro³',
     description:
-      "Sempre recebo muitas mensagens perguntando sobre meu setup e quais <strong>softwares ou hardwares que utilizo em meu dia a dia</strong>. Então resolvi listar tudo aqui em um só lugar, conforme for atualizando meu setup irei atualizando a lista também.",
+      "Sempre recebo muitas mensagens perguntando sobre meu setup e quais <strong>softwares e equipamentos utilizo em meu dia a dia</strong>. Então resolvi listar tudo aqui em um só lugar, conforme for atualizando meu setup, irei atualizando a lista também.",
     tagline: 'Equipamentos, apps e ferramentas',
     image: '#',
     primaryColor: 'yellow',
