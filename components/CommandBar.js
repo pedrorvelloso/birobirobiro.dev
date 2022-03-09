@@ -132,7 +132,7 @@ export default function CommandBar(props) {
       <KBarPortal>
         <Positioner>
           <Animator>
-            <Search placeholder="Type a command or search…" />
+            <Search placeholder="Digite um comando ou pesquise…" />
             <RenderResults />
           </Animator>
         </Positioner>
