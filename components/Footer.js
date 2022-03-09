@@ -8,19 +8,19 @@ export default function Footer() {
       icon: 'ri-instagram-line',
     },
     {
-      title: 'Source',
-      url: 'https://github.com/birobirobiro',
-      icon: 'ri-braces-line',
-    },
-    {
       title: 'GitHub',
       url: 'https://github.com/birobirobiro',
       icon: 'ri-github-line',
     },
     {
-      title: 'linkedin',
+      title: 'LinkedIn',
       url: 'https://linkedin.com/in/birobirobiro',
       icon: 'ri-linkedin-line',
+    },
+    {
+      title: 'Rocketseat',
+      url: 'https://app.rocketseat.com.br/me/birobirobiro',
+      icon: 'ri-rocket-line',
     },
     {
       title: 'Twitch',
@@ -31,6 +31,11 @@ export default function Footer() {
       title: 'Youtube',
       url: 'https://youtube.com/birobirobiro',
       icon: 'ri-youtube-line',
+    },
+    {
+      title: 'Source',
+      url: 'https://github.com/birobirobiro/birobirobiro.dev',
+      icon: 'ri-braces-line',
     },
   ]
 

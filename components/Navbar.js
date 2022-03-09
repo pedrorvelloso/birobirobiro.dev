@@ -9,13 +9,8 @@ export default function Navbar() {
   const router = useRouter()
   const pages = [
     'About',
-    // 'Articles',
     'Projects',
-    // 'Talks',
-    // 'Podcasts',
-    // 'Investing',
     'Setup',
-    // 'Reminder',
   ]
   const [hovered, setHovered] = useState('')
   const { query } = useKBar()
