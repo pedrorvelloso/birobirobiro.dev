@@ -1,1 +1,5 @@
-*.DS_STORE
+.env
+.next
+.vercel
+auth.json
+node_modules
