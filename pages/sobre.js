@@ -59,7 +59,7 @@ function About(props) {
           </Paragraph>
 
           <Paragraph>
-            Quando não estou trabalhando, estou produzindo conteúdos no <i><a href="https://instagram.com/birobirobiro">Instagram</a></i>, <i><a href="https://youtube.com/birobirobiro">Youtube</a></i> e fazendo lives na <i><a href="https://twitch.tv/birobirobiro">Twitch</a></i>.
+            Quando não estou trabalhando, estou codando algum projeto pessoal ou produzindo conteúdos para o <i><a href="https://instagram.com/birobirobiro">Instagram</a></i>, <i><a href="https://youtube.com/birobirobiro">Youtube</a></i> e fazendo lives na <i><a href="https://twitch.tv/birobirobiro">Twitch</a></i>.
           </Paragraph>
         </Section>
       </Container>
