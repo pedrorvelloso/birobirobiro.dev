@@ -12,7 +12,7 @@ import items from '../data/about'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'About // Biro³',
+    title: 'Sobre // Biro³',
     description:
       "Me chamo João, mas pode me chamar de Biro ✌🏻.",
     tagline: 'Sobre mim.',

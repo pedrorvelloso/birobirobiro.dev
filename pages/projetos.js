@@ -9,7 +9,7 @@ import items from '../data/projects'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Projects // Biro³',
+    title: 'Projetos // Biro³',
     tagline: 'Trabalho, hobby & open source.',
     image: '#',
     primaryColor: 'cyan',

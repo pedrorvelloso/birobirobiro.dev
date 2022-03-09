@@ -35,7 +35,7 @@ const categories = [
         url: 'https://amzn.to/3KqIHTk',
       },
       {
-        title: 'Fone TWS - Edifier X3',
+        title: 'Fone - Edifier TWS X3',
         url: 'https://amzn.to/3pRuhUi',
       },
       {
