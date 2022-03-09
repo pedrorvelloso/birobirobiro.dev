@@ -33,7 +33,7 @@ function Post(props) {
       </Head>
 
       <ArticleJsonLd
-        authorName="Zeno Rocha"
+        authorName="João Inácio (Biro)"
         type="Blog"
         url={url}
         title={title}
