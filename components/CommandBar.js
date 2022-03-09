@@ -18,7 +18,7 @@ export default function CommandBar(props) {
   const actions = [
     {
       id: 'copy',
-      name: 'Copy URL',
+      name: 'Copiar URL',
       shortcut: ['u'],
       keywords: 'copy-url',
       section: 'General',
@@ -27,7 +27,7 @@ export default function CommandBar(props) {
     },
     {
       id: 'email',
-      name: 'Send Email',
+      name: 'Enviar Email',
       shortcut: ['e'],
       keywords: 'send-email',
       section: 'General',
@@ -45,20 +45,20 @@ export default function CommandBar(props) {
     },
     {
       id: 'about',
-      name: 'About',
+      name: 'Sobre',
       shortcut: ['g', 'a'],
       keywords: 'go-about',
       section: 'Go To',
-      perform: () => router.push('/about'),
+      perform: () => router.push('/sobre'),
       icon: <Icon className="ri-user-line" />,
     },
     {
       id: 'projects',
-      name: 'Projects',
+      name: 'Projetos',
       shortcut: ['g', 'p'],
       keywords: 'go-projects',
       section: 'Go To',
-      perform: () => router.push('/projects'),
+      perform: () => router.push('/projetos'),
       icon: <Icon className="ri-lightbulb-line" />,
     },
     {
