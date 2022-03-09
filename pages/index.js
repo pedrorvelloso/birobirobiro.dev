@@ -27,7 +27,7 @@ export default function Index(props) {
         <meta content={description} name="description" />
         <meta content={description} property="og:description" />
         <meta content="https://birobirobiro.dev" property="og:url" />
-        <meta content={`https://birobirobiro.dev${image}`} property="og:image" />
+        <meta content={`${image}`} property="og:image" />
       </Head>
 
       <Navbar />
