@@ -9,7 +9,7 @@ function Post(props) {
     return <ErrorMessage code={props.errorCode} />
   }
 
-  const title = `${props.title} // Zeno Rocha`
+  const title = `${props.title} // João Inácio (Biro)`
   const description = props.description || ''
   const url = `https://birobirobiro.dev/${props.slug}`
   const date = new Date(props.date).toISOString()
