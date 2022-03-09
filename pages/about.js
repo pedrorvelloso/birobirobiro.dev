@@ -32,7 +32,7 @@ function About(props) {
       <Container>
         <Section>
           <Image
-            alt="Zeno"
+            alt="Biro"
             src="/static/images/birobirobiro.jpg"
             width="680"
             height="920"
@@ -80,7 +80,7 @@ function About(props) {
             as="a"
             download
             role="button"
-            href="/static/images/zeno.png"
+            href="/static/images/#.png"
           >
             <ButtonPrimaryIcon className="ri-download-2-line" /> Download
             Headshot
