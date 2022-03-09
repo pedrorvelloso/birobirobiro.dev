@@ -19,7 +19,7 @@ const items = [
       {
         title: 'GPT-3',
         description: 'Landing Page desenvolvida durante a live na Twitch',
-        url: 'https://github.com/birobirobiro/my-onix-web',
+        url: 'https://github.com/birobirobiro/live-twitch-lp-gpt3',
         icon: 'robot',
         active: true,
       },
