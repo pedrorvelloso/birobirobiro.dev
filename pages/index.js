@@ -11,7 +11,7 @@ export async function getStaticProps() {
     props: {
       title: 'João Inácio (Biro)',
       description: 'An instructor focused on helping people start programming.',
-      image: '/static/images/home-bw.jpg',
+      image: '/static/images/image.png',
     },
   }
 }
