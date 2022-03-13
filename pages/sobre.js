@@ -55,7 +55,7 @@ function About(props) {
           </Paragraph>
 
           <Paragraph>
-            Sou programador front-end, apaixonado por tecnologia. Atualmente trabalho como <strong>Instrutor</strong> na <strong>Rocketseat</strong> e tenho {new Date().getFullYear() - yearExperience.getFullYear()} de experiência com as principais tecnologias: <i>HTML, CSS, JavaScript, ReactJS e React Native</i>.
+            Sou programador front-end, apaixonado por tecnologia. Atualmente trabalho como <strong>Instrutor</strong> na <strong>Rocketseat</strong> e tenho {new Date().getFullYear() - yearExperience.getFullYear()} anos de experiência com as principais tecnologias: <i>HTML, CSS, JavaScript, ReactJS e React Native</i>.
           </Paragraph>
 
           <Paragraph>
