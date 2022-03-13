@@ -21,7 +21,7 @@ export default function CommandBar(props) {
       name: 'Copiar URL',
       shortcut: ['u'],
       keywords: 'copy-url',
-      section: 'General',
+      section: 'Geral',
       perform: () => navigator.clipboard.writeText(window.location.href),
       icon: <Icon className="ri-file-copy-line" />,
     },
