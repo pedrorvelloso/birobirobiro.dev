@@ -55,6 +55,10 @@ const categories = [
         title: 'Link - Wallpapers',
         url: 'https://ibb.co/album/pJTFqF',
       },
+      {
+        title: 'Prestige Wallpapers',
+        url: 'https://prestigewallpapers.gumroad.com/',
+      },
     ],
   },
   {
