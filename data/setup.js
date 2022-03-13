@@ -151,6 +151,18 @@ const categories = [
         title: 'Spotify',
         url: 'https://www.spotify.com/br/',
       },
+      {
+        title: 'Cron',
+        url: 'https://cron.com/',
+      },
+      {
+        title: 'Keka',
+        url: 'https://www.keka.io/en/',
+      },
+      {
+        title: 'MailSpring',
+        url: 'https://getmailspring.com/',
+      },
     ],
   },
   {
