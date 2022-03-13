@@ -10,13 +10,6 @@ const items = [
         active: true,
       },
       {
-        title: 'myOnix App',
-        description: 'Consulte os códigos de erro que aparecem no painel do veículo diretamente pelo app.',
-        url: 'https://github.com/birobirobiro/my-onix-app',
-        icon: 'android',
-        active: true,
-      },
-      {
         title: 'RocketTravel',
         description: 'Projeto desenvolvido durante a live na Twitch',
         url: 'https://github.com/birobirobiro/live-twitch-rocket-travel',
@@ -40,6 +33,18 @@ const items = [
 
     ],
   },
+  {
+    year: '2021',
+    projects: [
+      {
+        title: 'myOnix App',
+        description: 'Consulte os códigos de erro que aparecem no painel do veículo diretamente pelo app.',
+        url: 'https://github.com/birobirobiro/my-onix-app',
+        icon: 'android',
+        active: true,
+      },
+    ]
+  }
 
 ]
 
