@@ -64,7 +64,7 @@ function Projects(props) {
   }
 
   const { title, image } = props
-  const description = `Essa página lista os <strong>${getTotalProjects()}</strong> projeto(s) que desenvolvi durante a minha jornada como programador.`
+  const description = `Essa página lista os <strong>${getTotalProjects()}</strong> principais projeto(s) que desenvolvi durante a minha jornada como programador.`
 
   return (
     <>
