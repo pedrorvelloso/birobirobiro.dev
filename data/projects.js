@@ -32,7 +32,7 @@ const items = [
       },
       {
         title: 'SpaceY',
-        description: 'Projeto SpaceY desenvolvido durante a live na Twitch',
+        description: 'Projeto desenvolvido durante a live na Twitch',
         url: 'https://github.com/birobirobiro/live-twitch-space-y',
         icon: 'rocket',
         active: true,
