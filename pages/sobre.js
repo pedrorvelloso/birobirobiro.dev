@@ -17,7 +17,7 @@ export async function getStaticProps() {
       "Me chamo João, mas pode me chamar de Biro ✌🏻.",
     tagline: 'Sobre mim.',
     image: '#',
-    primaryColor: 'pink',
+    primaryColor: 'cyan',
     secondaryColor: 'purple',
   }
 

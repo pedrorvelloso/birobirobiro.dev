@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = ['myOnix', 'SpaceY', 'RocketTravel', 'GPT-3']
+    const featured = ['myOnix Web', 'myOnix App', 'SpaceY', 'RocketTravel', 'GPT-3']
 
     return items
       .map(item => {
