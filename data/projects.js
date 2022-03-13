@@ -11,7 +11,7 @@ const items = [
       },
       {
         title: 'myOnix App',
-        description: 'Consulte os códigos de erro que aparecem no painel do veículo',
+        description: 'Consulte os códigos de erro que aparecem no painel do veículo diretamente pelo app',
         url: 'https://github.com/birobirobiro/my-onix-app',
         icon: 'android',
         active: true,
