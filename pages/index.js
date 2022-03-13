@@ -35,7 +35,24 @@ export default function Index(props) {
         <PostContent>
           <PostContainer>
             <div>
-              <h1>{title}</h1>
+              <h1
+
+                style={{
+                  background: `linear-gradient(
+                  135deg,
+                  var(--colors-purple) 0%,
+                  var(--colors-green) 100%
+                )`,
+                  "background-size": "100",
+                  "-webkit-background-clip": "text",
+                  "-moz-background-clip": "text",
+                  "-webkit-text-fill-color": "transparent",
+                  "-moz-text-fill-color": "transparent",
+
+                }}
+
+
+              >{title}</h1>
               <p>
                 <strong>Front-end Developer | Developer Instructor at <a href="https://rocketseat.com.br" target="_blank">Rocketseat</a></strong>.<br />
                 {description}.
@@ -46,7 +63,7 @@ export default function Index(props) {
         </PostContent>
       </Home>
       <Footer />
-    </Wrapper>
+    </Wrapper >
   )
 }
 

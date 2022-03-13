@@ -6,36 +6,49 @@ export default function Footer() {
       title: 'Instagram',
       url: 'https://instagram.com/birobirobiro',
       icon: 'ri-instagram-line',
+      color: '#e1306c',
     },
     {
       title: 'GitHub',
       url: 'https://github.com/birobirobiro',
       icon: 'ri-github-line',
+      color: '#4078c0',
+
     },
     {
       title: 'LinkedIn',
       url: 'https://linkedin.com/in/birobirobiro',
       icon: 'ri-linkedin-line',
+      color: '#0077b5',
+
     },
     {
       title: 'Rocketseat',
       url: 'https://app.rocketseat.com.br/me/birobirobiro',
       icon: 'ri-rocket-line',
+      color: '#8257E5',
+
     },
     {
       title: 'Twitch',
       url: 'https://instagram.com/birobirobiro',
       icon: 'ri-twitch-line',
+      color: '#9146ff',
+
     },
     {
       title: 'Youtube',
       url: 'https://youtube.com/birobirobiro',
       icon: 'ri-youtube-line',
+      color: '#ff0000',
+
     },
     {
       title: 'Source',
       url: 'https://github.com/birobirobiro/birobirobiro.dev',
       icon: 'ri-braces-line',
+      color: '#fafafa',
+
     },
   ]
 
@@ -81,8 +94,8 @@ const Anchor = styled('a', {
   textTransform: 'lowercase',
   transition: 'color $duration ease-in-out',
   '&:hover, &:focus': {
-    color: '$primary',
     opacity: 1,
+    color: '$primary',
   },
   [`&:hover ${Icon}`]: {
     transition: 'opacity $duration ease-in-out',

@@ -6,7 +6,7 @@ import { parseISO, format, intervalToDuration } from 'date-fns'
 import Base from '../layouts/Base'
 // import { ButtonPrimary } from '../components/ButtonPrimary'
 // import { ButtonPrimaryIcon } from '../components/ButtonPrimaryIcon'
-import Pronunciation from '../components/Pronunciation'
+// import Pronunciation from '../components/Pronunciation'
 import stripHtml from '../lib/strip-html'
 import items from '../data/about'
 
