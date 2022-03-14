@@ -12,7 +12,7 @@ export default function Footer() {
       title: 'GitHub',
       url: 'https://github.com/birobirobiro',
       icon: 'ri-github-line',
-      color: '#4078c0',
+      color: '#777',
 
     },
     {
@@ -47,7 +47,7 @@ export default function Footer() {
       title: 'Source',
       url: 'https://github.com/birobirobiro/birobirobiro.dev',
       icon: 'ri-braces-line',
-      color: '#fafafa',
+      color: '#f1f1f1',
 
     },
   ]
@@ -56,7 +56,17 @@ export default function Footer() {
     <Container>
       {links.map((link, index) => {
         return (
-          <Anchor key={index} href={link.url} target="_blank">
+          <Anchor
+            css={{
+              "&:hover": {
+                color: link.color,
+                "i::before": {
+                  color: link.color,
+                }
+              }
+            }}
+
+            key={index} href={link.url} target="_blank">
             <Title>{link.title}</Title>
             <Icon className={link.icon} />
           </Anchor>
@@ -95,7 +105,6 @@ const Anchor = styled('a', {
   transition: 'color $duration ease-in-out',
   '&:hover, &:focus': {
     opacity: 1,
-    color: '$primary',
   },
   [`&:hover ${Icon}`]: {
     transition: 'opacity $duration ease-in-out',
