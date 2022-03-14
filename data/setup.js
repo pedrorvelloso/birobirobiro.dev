@@ -48,9 +48,18 @@ const categories = [
         url: 'https://amzn.to/364VpbJ',
       },
       {
+        title: 'Luminária Retro',
+        url: 'https://amzn.to/37uKRmS',
+      },
+      {
+        title: 'Lâmpada Filamento',
+        url: 'https://amzn.to/3i8Cv6w',
+      },
+      {
         title: 'Suporte Celular',
         url: 'https://amzn.to/3q54YOL',
       },
+
     ],
   },
   {
