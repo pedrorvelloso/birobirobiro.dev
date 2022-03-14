@@ -46,6 +46,10 @@ const categories = [
         title: 'Cadeira - Frisokar Addit',
         url: 'https://amzn.to/364VpbJ',
       },
+      {
+        title: 'Suporte Celular',
+        url: 'https://amzn.to/3q54YOL',
+      },
     ],
   },
   {
@@ -124,7 +128,6 @@ const categories = [
       },
       {
         title: 'Notion',
-        description: 'My personal OS with all the notes from all my projects.',
         url: 'https://www.notion.so/',
       },
       {
@@ -168,6 +171,10 @@ const categories = [
   {
     name: 'Serviços',
     items: [
+      {
+        title: 'Lo-fi',
+        url: 'https://lofi.co/',
+      },
       {
         title: 'Google Domains',
         url: 'https://domains.google',
