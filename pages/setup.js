@@ -25,7 +25,7 @@ function Uses(props) {
     return categories.map((category, index) => {
       return (
         <div key={index}>
-          <h2>{category.name}</h2>
+          <h2 id={category.id}>{category.name}</h2>
           <ul>
             {category.items.map((item, iIndex) => {
               return (

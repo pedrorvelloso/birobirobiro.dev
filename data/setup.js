@@ -1,6 +1,7 @@
 const categories = [
   {
     name: 'Equipamentos',
+    id: 'equipamentos',
     items: [
       {
         title: 'Laptop - MacBook Pro M1 (13", 2020) 8GB RAM 256GB SSD',
@@ -54,6 +55,7 @@ const categories = [
   },
   {
     name: 'Wallpapers',
+    id: 'wallpapers',
     items: [
       {
         title: 'Link - Wallpapers',
@@ -67,6 +69,7 @@ const categories = [
   },
   {
     name: 'Código',
+    id: 'codigo',
     items: [
       {
         title: 'Editor - VS Code',
@@ -84,6 +87,7 @@ const categories = [
   },
   {
     name: 'Terminal',
+    id: 'terminal',
     items: [
       {
         title: 'Hyper',
@@ -105,6 +109,7 @@ const categories = [
   },
   {
     name: 'Apps',
+    id: 'apps',
     items: [
       {
         title: 'Raycast',
@@ -170,6 +175,7 @@ const categories = [
   },
   {
     name: 'Serviços',
+    id: 'servicos',
     items: [
       {
         title: 'Lo-fi',
