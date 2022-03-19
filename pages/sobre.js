@@ -3,6 +3,7 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import { parseISO, format, intervalToDuration } from 'date-fns'
+import { ptBR } from 'date-fns/locale'
 
 
 import Base from '../layouts/Base'
@@ -106,11 +107,11 @@ function About(props) {
             <span> • {item.location}</span>
           </p>
           <p style={{ margin: 0 }}>
-            <span>{format(parseISO(item.startDate), 'LLL yyyy')}</span>
+            <span>{format(parseISO(item.startDate), 'LLL yyyy', { locale: ptBR })}</span>
             <span> – </span>
             <span>
               {item.endDate
-                ? format(parseISO(item.endDate), 'LLL yyyy')
+                ? format(parseISO(item.endDate), 'LLL yyyy', { locale: ptBR })
                 : 'Momento atual'}
             </span>
             <span> • </span>
