@@ -11,6 +11,7 @@ const items = [
     company: 'Helpfor',
     companyUrl: '#',
     startDate: '2017-11',
+    endDate: '2019-09',
     location: 'Bebedouro, SP',
   },
 ]

@@ -3,6 +3,8 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import { parseISO, format, intervalToDuration } from 'date-fns'
+
+
 import Base from '../layouts/Base'
 // import { ButtonPrimary } from '../components/ButtonPrimary'
 // import { ButtonPrimaryIcon } from '../components/ButtonPrimaryIcon'
@@ -109,7 +111,7 @@ function About(props) {
             <span>
               {item.endDate
                 ? format(parseISO(item.endDate), 'LLL yyyy')
-                : 'Present'}
+                : 'Momento atual'}
             </span>
             <span> • </span>
             <span>{getDuration(item.startDate, item.endDate)}</span>
@@ -128,12 +130,12 @@ function About(props) {
     let durationStr = ''
 
     if (durationObj.years > 1) {
-      durationStr = `${durationObj.years} yrs `
+      durationStr = `${durationObj.years} anos `
     } else if (durationObj.years === 1) {
-      durationStr = `${durationObj.years} yr `
+      durationStr = `${durationObj.years} ano `
     }
 
-    durationStr += `${durationObj.months} mos`
+    durationStr += `${durationObj.months} meses`
 
     return durationStr
   }
