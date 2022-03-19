@@ -31,7 +31,7 @@ export default function Footer() {
     },
     {
       title: 'Twitch',
-      url: 'https://instagram.com/birobirobiro',
+      url: 'https://twitch.tv/birobirobiro',
       icon: 'ri-twitch-line',
       color: '#9146ff',
 
