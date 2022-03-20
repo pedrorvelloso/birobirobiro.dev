@@ -1,20 +1,26 @@
+/* eslint-disable @next/next/no-img-element */
 import ShortcutError from './ShortcutError'
 import { Box } from './Box'
 
 export default function ErrorMessage({ code }) {
-  let title = 'five hundred'
-  let description = "Something isn't right."
+  let title = 'erro: 500'
+  let description = "Algo não saiu como o esperado."
 
   if (code === 404) {
-    title = 'four oh four'
-    description = "This page doesn't exist."
+    title = 'erro: 404'
+    description = "Parece que essa página não existe."
   }
 
   return (
-    <Box css={{ textAlign: 'center' }}>
+    <Box css={{
+      textAlign: 'center', margin: '0 auto', maxWidth: '400px',
+    }}>
       <h1>{title}</h1>
-      <ShortcutError />
       <p>{description}</p>
-    </Box>
+      <img
+        style={{ filter: "grayscale(100%)" }}
+        src="/static/images/astronaut.png" alt="Ilustração de um astronauta com macbook na mão tentando encontrar o erro" />
+      <ShortcutError />
+    </Box >
   )
 }

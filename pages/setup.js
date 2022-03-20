@@ -6,7 +6,7 @@ import categories from '../data/setup'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Setup // Biro³',
+    title: 'Setup // biro³',
     description:
       "Sempre recebo muitas mensagens perguntando sobre meu setup e quais <strong>softwares e equipamentos utilizo em meu dia a dia</strong>. Então, resolvi listar tudo aqui em um só lugar. Conforme for atualizando meu setup, atualizarei a lista abaixo.",
     tagline: 'Equipamentos, apps e ferramentas.',

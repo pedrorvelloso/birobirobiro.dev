@@ -15,11 +15,11 @@ import items from '../data/about'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Sobre // Biro³',
+    title: 'Sobre // biro³',
     description:
       "Me chamo João, mas pode me chamar de Biro ✌🏻.",
     tagline: 'Sobre mim.',
-    image: '#',
+    image: 'https://raw.githubusercontent.com/birobirobiro/birobirobiro.dev/572ce4534386893e3c064da603745a68ea4cb051/.github/image.png',
     primaryColor: 'cyan',
     secondaryColor: 'purple',
   }
