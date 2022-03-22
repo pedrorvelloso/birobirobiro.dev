@@ -85,13 +85,17 @@ const categories = [
         url: 'https://code.visualstudio.com',
       },
       {
-        title: 'Tema - Omni Owl',
+        title: 'Tema VS Code - Omni Owl',
         url: 'https://marketplace.visualstudio.com/items?itemName=guilhermerodz.omni-owl',
+      },
+      {
+        title: 'Fonte - Dank Mono',
+        url: 'https://philpl.gumroad.com/l/dank-mono',
       },
       {
         title: 'Fonte - Victor Mono',
         url: 'https://rubjo.github.io/victor-mono/',
-      },
+      }
     ],
   },
   {
@@ -135,10 +139,6 @@ const categories = [
       {
         title: 'Figma',
         url: 'https://figma.com',
-      },
-      {
-        title: 'iStat Menu',
-        url: 'https://bjango.com/mac/istatmenus/',
       },
       {
         title: 'Notion',
