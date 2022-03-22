@@ -44,6 +44,13 @@ export default function Footer() {
 
     },
     {
+      title: 'Twitter',
+      url: 'https://twitter.com/birobirobirodev',
+      icon: 'ri-twitter-line',
+      color: '#1da1f2',
+
+    },
+    {
       title: 'Source',
       url: 'https://github.com/birobirobiro/birobirobiro.dev',
       icon: 'ri-braces-line',
